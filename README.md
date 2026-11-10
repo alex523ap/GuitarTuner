@@ -2,7 +2,11 @@
 
 A tuner for Pebble watches that listens with the watch's own microphone. Pluck a string and the watch shows the note, how far off it is, and buzzes once when it's in tune. Works without the phone.
 
-![Pebble Time 2](screenshots/emery-2x.gif) ![Pebble Round 2](screenshots/gabbro-2x.gif) ![Pebble 2 Duo](screenshots/flint-2x.gif)
+![Pebble Time 2 flat](screenshots/emery-2-flat.png) ![Pebble Time 2 in tune](screenshots/emery-3-in-tune.png) ![Pebble Time 2 sharp](screenshots/emery-4-sharp.png) ![Pebble Time 2 menu](screenshots/emery-5-menu.png)
+
+![Pebble Round 2 flat](screenshots/gabbro-2-flat.png) ![Pebble Round 2 in tune](screenshots/gabbro-3-in-tune.png) ![Pebble Round 2 sharp](screenshots/gabbro-4-sharp.png) ![Pebble Round 2 menu](screenshots/gabbro-5-menu.png)
+
+![Pebble 2 Duo flat](screenshots/flint-2-flat.png) ![Pebble 2 Duo in tune](screenshots/flint-3-in-tune.png) ![Pebble 2 Duo sharp](screenshots/flint-4-sharp.png) ![Pebble 2 Duo menu](screenshots/flint-5-menu.png)
 
 ## Features
 
