@@ -1,0 +1,59 @@
+{
+  "name": "guitar-tuner",
+  "author": "alex_pavlov",
+  "version": "1.1.0",
+  "keywords": ["pebble-app"],
+  "private": true,
+  "dependencies": {},
+  "pebble": {
+    "displayName": "Guitar Tuner",
+    "uuid": "4585fb53-311c-4043-9783-f677d27fe127",
+    "manifestVersion": 2,
+    "sdkVersion": "3",
+    "enableMultiJS": true,
+    "projectType": "native",
+    "targetPlatforms": ["emery", "gabbro", "flint"],
+    "watchapp": {
+      "watchface": false
+    },
+    "usesPermissions": [
+      "WatchMicrophone"
+    ],
+    "capabilities": [],
+    "messageKeys": [
+      "CLIP_ID",
+      "CLIP_LABEL",
+      "CLIP_SAMPLES",
+      "CLIP_TOTAL",
+      "CLIP_PEAK",
+      "CLIP_LEVEL",
+      "CLIP_SEQ",
+      "CLIP_DATA",
+      "CLIP_SUM"
+    ],
+    "resources": {
+      "media": [
+        {
+          "type": "png",
+          "name": "IMAGE_MENU_ICON",
+          "file": "images/menu_icon.png",
+          "menuIcon": true
+        },
+        {
+          "type": "font",
+          "name": "FONT_NOTE_74",
+          "file": "fonts/BarlowCondensed-Bold.ttf",
+          "characterRegex": "[A-G#0-9-]",
+          "targetPlatforms": ["emery", "gabbro"]
+        },
+        {
+          "type": "font",
+          "name": "FONT_NOTE_54",
+          "file": "fonts/BarlowCondensed-Bold.ttf",
+          "characterRegex": "[A-G#0-9-]",
+          "targetPlatforms": ["flint"]
+        }
+      ]
+    }
+  }
+}
